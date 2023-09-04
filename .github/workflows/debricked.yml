@@ -1,5 +1,5 @@
 name: Vulnerability scan
-on: []
+on: [push, pull_request]
 jobs:
   vulnerabilities-scan:
     runs-on: ubuntu-latest
